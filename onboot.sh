@@ -34,8 +34,8 @@ date_time=$(date +"%m-%d-%Y %k:%M %:z")
 # make the request
 CURL=`which curl`
 $CURL	-d "user_credentials=$BOXCAR_KEY" \
-		-d "notification[title]=Box UP: $hostname" \
-    	-d "notification[long_message]=Server Time: $date_time<br />Flavour: $flavour<br /> IP: $public_ip<br />Load: $load_averege<br />Disk Usage: $disk_usage  ($disk_usage_percent percent)" \
+	-d "notification[title]=Box UP: $hostname" \
+    	-d "notification[long_message]=Server Time: $date_time<br />Flavor: $flavour<br /> IP: $public_ip<br />Load: $load_averege<br />Disk Usage: $disk_usage  ($disk_usage_percent percent)" \
     	-d "notification[sound]=$sound" \
     	-d "notification[source_name]=$hostname" \
      	https://new.boxcar.io/api/notifications
