@@ -18,7 +18,7 @@ sound="clanging"
 # Stuff stuff into vars
 # -------------------------
 #public_ip=$(ifconfig | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}' | sed '/127.0.0/d')
-public_ip=$(curl icanhazip.com)
+public_ip=$(curl --silent icanhazip.com)
 hostname=$(hostname)
 load_averege=$(uptime | awk -F'[a-z]:' '{ print $2}')
 disk_usage=$(df -h | awk '$NF=="/"{printf "%d/%dGB\n", $3,$2}')
