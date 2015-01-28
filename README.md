@@ -18,7 +18,7 @@ Make a crontab on the server you want to monitor and set:
             DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
                     Version 2, December 2004
 
- Copyright (C) 2004 Costin Moise <necenurat+license@gmail.com>
+ Copyright (C) 2015 Costin Moise <necenurat+license@gmail.com>
 
  Everyone is permitted to copy and distribute verbatim or modified
  copies of this license document, and changing it is allowed as long
