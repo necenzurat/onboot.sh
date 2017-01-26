@@ -11,7 +11,7 @@
 # -------------------------
 # you can find this in the Boxcar 2 app
 BOXCAR_KEY=""
-# available sounds: http://help.boxcar.io/knowledgebase/articles/306788-how-to-send-a-notification-to-boxcar-users
+# available sounds: http://help.boxcar.io/support/solutions/articles/6000004813-how-to-send-a-notification-to-boxcar-for-ios-users
 sound="clanging"
 # -------------------------
 
